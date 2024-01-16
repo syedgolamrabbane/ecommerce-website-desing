@@ -51,6 +51,10 @@ p{
     max-width: 100%;
     padding: 50px 0;
 }
+.col-2 img:hover{
+    transform:rotate(360deg);
+    transition:transform 8s ease-in-out;
+}
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
